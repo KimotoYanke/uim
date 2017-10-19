@@ -101,9 +101,11 @@ static struct _CommandEntry command_entry[] = {
     NULL,
     GTK_STOCK_PREFERENCES,
 #if GTK_CHECK_VERSION(2, 90, 0)
-    "uim-pref-gtk3",
+    //"uim-pref-gtk3",
+    "uim-pref-qt4",
 #else
-    "uim-pref-gtk",
+    //"uim-pref-gtk",
+    "uim-pref-qt4",
 #endif
     "toolbar-show-pref-button?",
     UIM_FALSE
